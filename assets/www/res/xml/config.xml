@@ -152,17 +152,17 @@
     <icon
         gap:platform="android"
         gap:qualifier="hdpi"
-        src="www/res/icon/android/drawable-hdpi/ic_launcher.png" />
+        src="www/res/drawable-hdpi/ic_launcher.png" />
 
     <icon
         gap:platform="android"
         gap:qualifier="xhdpi"
-        src="www/res/icon/android/drawable-xhdpi/ic_launcher.png" />
+        src="www/res/drawable-xhdpi/ic_launcher.png" />
 
     <icon
         gap:platform="android"
         gap:qualifier="xxhdpi"
-        src="www/res/icon/android/drawable-xxhdpi/ic_launcher.png" />
+        src="www/res/drawable-xxhdpi/ic_launcher.png" />
 
     
     <splash
