@@ -23,7 +23,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 // device APIs are available
 //
 function onDeviceReady() {
-    playAudio("/www/audio/2.mp3");
+    playAudio('../www/audio/2.mp3');
 }
 
 // Audio player
@@ -108,7 +108,7 @@ function setAudioPosition(position) {
     </cover>
     <div id="bl-main" class="bl-main">
         <section>
-            <div class="bl-box" onclick="setVolume('0.2');playAudio('/www/audio/1.mp3');" >
+            <div class="bl-box" onclick="setVolume('0.2');playAudio('../www/audio/1.mp3');" >
                 <h2 class="bl-icon bl-icon-about"><span style="font-family:'Lato'">Untuk Kamu</span></h2>
             </div>
             <div class="bl-content">
@@ -171,7 +171,7 @@ Dan berharap dia akan menjadi milikku selamanya.
             <span onclick="setVolume('');pauseAudio();tutup()" class="bl-icon bl-icon-close"></span>
   </section>
         <section>
-            <div class="bl-box" onclick="setVolume('0.2');playAudio('/android_asset/www/audio/3.mp3');">
+            <div class="bl-box" onclick="setVolume('0.2');playAudio('../www/audio/3.mp3');">
                 <h2 class="bl-icon bl-icon-contact"><span style="font-family:'Lato'">Terima kasih</span></h2>
             </div>
             <div class="bl-content">
